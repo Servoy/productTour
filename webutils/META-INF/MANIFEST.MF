@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-Name: webutils
+Bundle-SymbolicName: webutils
+Package-Type: Web-Service
+Bundle-Version: 1.0.0
+
+Name: webutils/webutils.spec
+Web-Service: True
+
