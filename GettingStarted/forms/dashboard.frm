@@ -154,9 +154,11 @@ value:"sub_total"
 },
 foundsetSelector:"orders_to_order_details"
 },
-responsiveHeight:50
+responsiveHeight:50,
+styleClass:"chart"
 },
 name:"chart_4",
+styleClass:"chart",
 typeName:"svychartjs-chart",
 typeid:47,
 uuid:"BD66E0FA-7C6A-4F74-AED8-256AA71793EE"
