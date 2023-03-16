@@ -72,6 +72,13 @@ function onShow(firstShow, event) {
  * @properties={typeid:24,uuid:"297D9AD2-68CF-4B38-8B8B-DAE582A96945"}
  */
 function onColumnDataChange(foundsetindex, columnindex, oldvalue, newvalue, event, record) {
+	//if the column is changed is columnindex == 1 --> or product name, we can go 	
+	//and get the product price and automatically add it
+	if (columnindex == 0) {
+		var curr_rec = foundset.orders_to_order_details.getSelectedRecord();
+		curr_rec.unitprice = curr_rec.order_details_to_products.unitprice;
+	}
+	
 	databaseManager.saveData();
 	return true;
 }
@@ -83,6 +90,6 @@ function onColumnDataChange(foundsetindex, columnindex, oldvalue, newvalue, even
  *
  * @properties={typeid:24,uuid:"C242D11C-7E91-4DDB-BAD3-DE56D7FE6334"}
  */
-function onAction(event) {
-	foundset.orders_to_order_details.newRecord();
+function onAction(event) {	
+	foundset.orders_to_order_details.newRecord();	
 }

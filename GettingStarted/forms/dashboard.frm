@@ -175,5 +175,6 @@ navigatorID:"-1",
 onShowMethodID:"6D07D285-0E4B-431A-9B07-BC28A6E682D6",
 showInMenu:true,
 size:"630,737",
+styleClass:"dashboard",
 typeid:3,
 uuid:"99012A44-BEAE-460B-83D8-01958F46814A"
