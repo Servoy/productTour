@@ -4,6 +4,24 @@ dataSource:"db:/example_data/orders",
 encapsulation:108,
 items:[
 {
+cssPosition:"4,10,-1,-1,100,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"-1",
+right:"10",
+top:"4",
+width:"100"
+},
+text:"New Order"
+},
+name:"button_1",
+typeName:"bootstrapcomponents-button",
+typeid:47,
+uuid:"0BD7F308-35F4-4130-950C-9CA7DFFCCEB7"
+},
+{
 cssPosition:"-1,-1,11,10,164,30",
 formIndex:1,
 json:{
@@ -144,18 +162,18 @@ typeid:47,
 uuid:"BD66E0FA-7C6A-4F74-AED8-256AA71793EE"
 },
 {
-cssPosition:"10,10,-1,10,335,30",
+cssPosition:"0,0,-1,0,335,40",
 json:{
 cssPosition:{
 bottom:"-1",
-height:"30",
-left:"10",
-right:"10",
-top:"10",
+height:"40",
+left:"0",
+right:"0",
+top:"0",
 width:"335"
 },
 styleClass:"default-align title",
-text:"Orders System"
+text:"Order System"
 },
 name:"label_1",
 styleClass:"default-align title",

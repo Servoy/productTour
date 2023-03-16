@@ -78,8 +78,8 @@ function onColumnDataChange(foundsetindex, columnindex, oldvalue, newvalue, even
 		var curr_rec = foundset.orders_to_order_details.getSelectedRecord();
 		curr_rec.unitprice = curr_rec.order_details_to_products.unitprice;
 	}
-	
-	databaseManager.saveData();
+	//need to recalculate otherwise chart doesn't show up properly
+	databaseManager.recalculate(foundset.orders_to_order_details)
 	return true;
 }
 

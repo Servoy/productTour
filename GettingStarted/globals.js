@@ -14,7 +14,7 @@ function onSolutionOpen(arg, queryParams) {
 	plugins.ngdesktopui.setMenuBarVisibility(false);
 	plugins.ngdesktopui.removeAllMenus();
 	application.executeLater(initCB,0)
-	databaseManager.setAutoSave(false);
+	databaseManager.setAutoSave(true);
 }
 
 /**
