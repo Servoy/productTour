@@ -5,6 +5,7 @@ encapsulation:108,
 items:[
 {
 cssPosition:"-1,-1,11,10,164,30",
+formIndex:1,
 json:{
 cssPosition:{
 bottom:"11",
@@ -14,6 +15,7 @@ right:"-1",
 top:"-1",
 width:"164"
 },
+formIndex:1,
 onActionMethodID:"C242D11C-7E91-4DDB-BAD3-DE56D7FE6334",
 text:"Add Item to Order"
 },
@@ -28,8 +30,8 @@ json:{
 columns:[
 {
 dataprovider:"productid",
-dndSource:true,
 editType:"COMBOBOX",
+enableResize:false,
 format:"¤#.00",
 headerTitle:"Product",
 svyUUID:"6749A60F-F9FC-4AC7-BA88-E641AAC4152F",
@@ -38,12 +40,14 @@ valuelist:"1D95C03F-0EE8-4F02-A584-836F6D498CCD"
 {
 dataprovider:"quantity",
 editType:"TEXTFIELD",
+headerTitle:"Quantity",
 svyUUID:"5382D820-0108-4EBD-8227-9BCFE3215925"
 },
 {
 dataprovider:"unitprice",
 editType:"TEXTFIELD",
 format:"¤#.00",
+headerTitle:"Price",
 svyUUID:"46BA62FE-373F-4C2E-AB54-3D022CA40E32"
 },
 {
@@ -61,6 +65,7 @@ right:"calc(45% - 10px)",
 top:"300",
 width:"200"
 },
+formIndex:0,
 myFoundset:{
 foundsetSelector:"orders_to_order_details"
 },
@@ -77,6 +82,7 @@ json:{
 columns:[
 {
 dataprovider:"orderid",
+headerTitle:"Order ID",
 svyUUID:"C7941B40-DB4C-470B-9186-C93D5C7AB55A"
 },
 {
@@ -87,6 +93,7 @@ svyUUID:"E255646C-24B1-4C5F-945C-21C46E64BF57"
 {
 dataprovider:"orderdate",
 format:"MM/dd/yyyy",
+headerTitle:"Order Date",
 svyUUID:"F25EB6A1-79C8-4323-BD2E-9A13EC7CE24C"
 },
 {
@@ -122,10 +129,13 @@ right:"10",
 top:"300",
 width:"200"
 },
-foundset:{"dataproviders":{
-"label":"order_details_to_products.productname",
-"value":"sub_total"
-},"foundsetSelector":"orders_to_order_details"},
+foundset:{
+dataproviders:{
+label:"order_details_to_products.productname",
+value:"sub_total"
+},
+foundsetSelector:"orders_to_order_details"
+},
 responsiveHeight:50
 },
 name:"chart_4",
