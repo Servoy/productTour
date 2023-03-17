@@ -93,3 +93,15 @@ function onColumnDataChange(foundsetindex, columnindex, oldvalue, newvalue, even
 function onAction(event) {	
 	foundset.orders_to_order_details.newRecord();	
 }
+
+/**
+ * @param {JSEvent} event
+ *
+ * @private
+ *
+ * @properties={typeid:24,uuid:"81E851DE-02B2-42E9-B441-E40C3605BE8F"}
+ */
+function onAction$newOrder(event) {
+	foundset.newRecord();
+	foundset.orderdate = new Date();	
+}

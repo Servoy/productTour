@@ -5,6 +5,7 @@ encapsulation:108,
 items:[
 {
 cssPosition:"4,10,-1,-1,100,30",
+formIndex:1,
 json:{
 cssPosition:{
 bottom:"-1",
@@ -14,6 +15,8 @@ right:"10",
 top:"4",
 width:"100"
 },
+formIndex:1,
+onActionMethodID:"81E851DE-02B2-42E9-B441-E40C3605BE8F",
 text:"New Order"
 },
 name:"button_1",
@@ -104,9 +107,11 @@ headerTitle:"Order ID",
 svyUUID:"C7941B40-DB4C-470B-9186-C93D5C7AB55A"
 },
 {
-dataprovider:"orders_to_customers.companyname",
+dataprovider:"customerid",
+editType:"COMBOBOX",
 headerTitle:"Company",
-svyUUID:"E255646C-24B1-4C5F-945C-21C46E64BF57"
+svyUUID:"E255646C-24B1-4C5F-945C-21C46E64BF57",
+valuelist:"10DC7F36-3F88-4490-B0EB-3391F55CBDC6"
 },
 {
 dataprovider:"orderdate",
@@ -174,8 +179,9 @@ right:"0",
 top:"0",
 width:"335"
 },
+formIndex:0,
 styleClass:"default-align title",
-text:"Order System"
+text:"My Orders"
 },
 name:"label_1",
 styleClass:"default-align title",
