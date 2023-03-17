@@ -1,4 +1,11 @@
 /**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"EE6FB537-B00B-413A-9348-3007A338BA40"}
+ */
+var searchTerm = '';
+
+/**
  * @type {Number}
  *
  * @properties={typeid:35,uuid:"0E6BF748-8935-4CD1-A8B9-3E8CC65731B3",variableType:4}
@@ -104,4 +111,26 @@ function onAction(event) {
 function onAction$newOrder(event) {
 	foundset.newRecord();
 	foundset.orderdate = new Date();	
+}
+
+/**
+ * Handle changed data, return false if the value should not be accepted.
+ * JSEvent.data will contain extra information about dataproviderid, its scope and the scope id (record datasource or form/global variable scope)
+ *
+ * @param oldValue
+ * @param newValue
+ * @param {JSEvent} event
+ *
+ * @return {Boolean}
+ *
+ * @private
+ *
+ * @properties={typeid:24,uuid:"4FAE51D1-A23D-4937-AFDD-49BCAF9A9E4F"}
+ * @AllowToRunInFind
+ */
+function onDataChange(oldValue, newValue, event) {
+	foundset.find()
+	foundset.orders_to_customers.companyname = '#%'+searchTerm+'%';	
+	foundset.search();
+	return true
 }

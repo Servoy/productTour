@@ -25,6 +25,28 @@ typeid:47,
 uuid:"0BD7F308-35F4-4130-950C-9CA7DFFCCEB7"
 },
 {
+cssPosition:"5,-1,-1,180,292,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"180",
+right:"-1",
+top:"5",
+width:"292"
+},
+dataProviderID:"searchTerm",
+onDataChangeMethodID:"4FAE51D1-A23D-4937-AFDD-49BCAF9A9E4F",
+placeholderText:"Search...",
+styleClass:"searchbox"
+},
+name:"searchbox",
+styleClass:"searchbox",
+typeName:"bootstrapcomponents-textbox",
+typeid:47,
+uuid:"40039D45-ACF2-4343-A0DF-E023D79D0F43"
+},
+{
 cssPosition:"-1,-1,11,10,164,30",
 formIndex:1,
 json:{
@@ -92,7 +114,7 @@ foundsetSelector:"orders_to_order_details"
 },
 onColumnDataChange:"297D9AD2-68CF-4B38-8B8B-DAE582A96945"
 },
-name:"groupingtable_1",
+name:"order_detail_tbl",
 typeName:"aggrid-groupingtable",
 typeid:47,
 uuid:"57E79C45-67D1-44FA-A7D5-87B25902B523"
@@ -135,7 +157,7 @@ top:"50",
 width:"428"
 }
 },
-name:"groupingtable_2",
+name:"orders_tbl",
 typeName:"aggrid-groupingtable",
 typeid:47,
 uuid:"A632FA00-D833-4BA7-86B1-8A503EA585D4"
@@ -159,7 +181,6 @@ value:"sub_total"
 },
 foundsetSelector:"orders_to_order_details"
 },
-responsiveHeight:50,
 styleClass:"chart"
 },
 name:"chart_4",
@@ -167,6 +188,25 @@ styleClass:"chart",
 typeName:"svychartjs-chart",
 typeid:47,
 uuid:"BD66E0FA-7C6A-4F74-AED8-256AA71793EE"
+},
+{
+cssPosition:"4,-1,-1,453,18,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"453",
+right:"-1",
+top:"4",
+width:"18"
+},
+styleClass:"default-align fa fa-search"
+},
+name:"label_2",
+styleClass:"default-align fa fa-search",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"C5959DB0-313E-4412-BF12-CE8390C15BB1"
 },
 {
 cssPosition:"0,0,-1,0,335,40",
@@ -183,7 +223,7 @@ formIndex:0,
 styleClass:"default-align title",
 text:"My Orders"
 },
-name:"label_1",
+name:"title",
 styleClass:"default-align title",
 typeName:"bootstrapcomponents-label",
 typeid:47,
@@ -201,6 +241,6 @@ navigatorID:"-1",
 onShowMethodID:"6D07D285-0E4B-431A-9B07-BC28A6E682D6",
 showInMenu:true,
 size:"630,737",
-styleClass:"dashboard",
+styleClass:"orders",
 typeid:3,
 uuid:"99012A44-BEAE-460B-83D8-01958F46814A"
