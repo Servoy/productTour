@@ -196,7 +196,7 @@ typeid:19,
 uuid:"F7AFC8AC-4790-40A5-8C33-48B742827E2C"
 }
 ],
-name:"dashboard",
+name:"orders",
 navigatorID:"-1",
 onShowMethodID:"6D07D285-0E4B-431A-9B07-BC28A6E682D6",
 showInMenu:true,
