@@ -1,4 +1,9 @@
-
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"8F5357D1-BDC1-4285-AF5F-AF22F02632AA"}
+ */
+var apikey = 'AIzaSyA7RMaQ7oTmVV1KAnnlEdvt7KXpHSykHF4'
 /**
  * Callback method for when solution is opened.
  * When deeplinking into solutions, the argument part of the deeplink url will be passed in as the first argument

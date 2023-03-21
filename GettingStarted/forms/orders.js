@@ -6,6 +6,13 @@
 var searchTerm = '';
 
 /**
+ * @type {Number}
+ *
+ * @properties={typeid:35,uuid:"7AEC8972-351E-40CA-86B5-1A7903080B1B",variableType:4}
+ */
+var mapZoom = 10;
+
+/**
  * @param {JSEvent} event
  *
  * @private
