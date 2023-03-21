@@ -86,7 +86,7 @@ cssPosition:"50,-1,-1,433,76,38",
 dataProviderID:"orderid",
 displaysTags:true,
 format:"#,###",
-styleClass:"header-title",
+styleClass:"default-align h3",
 transparent:true,
 typeid:7,
 uuid:"140CACA7-711B-45D0-A31A-11054EA30ADF"
@@ -311,11 +311,11 @@ right:"-1",
 top:"52",
 width:"17"
 },
-styleClass:"header-title",
+styleClass:"default-align h3",
 text:"#"
 },
 name:"label_2",
-styleClass:"header-title",
+styleClass:"default-align h3",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"7D4A2A5D-090B-4EBE-9664-AEFC1B28E4AA"
