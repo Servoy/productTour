@@ -93,20 +93,20 @@ typeid:47,
 uuid:"CB8C1B3D-567D-4F20-99FC-C425C4C47552"
 },
 {
-cssPosition:"10,-1,-1,396,113,30",
+cssPosition:"10,-1,-1,388,121,30",
 formIndex:3,
 json:{
 cssPosition:{
 bottom:"-1",
 height:"30",
-left:"396",
+left:"388",
 right:"-1",
 top:"10",
-width:"113"
+width:"121"
 },
 formIndex:3,
 onActionMethodID:"AF0F7D1B-5A51-42ED-81CD-65AEFB305F9A",
-text:"New Product"
+text:"New Product +"
 },
 name:"button_1",
 typeName:"bootstrapcomponents-button",
