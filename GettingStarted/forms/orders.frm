@@ -281,14 +281,14 @@ typeid:47,
 uuid:"6E8B1DC8-4102-426D-BF80-81A0614D4F6D"
 },
 {
-cssPosition:"50,-1,-1,420,17,31",
+cssPosition:"48,-1,-1,420,17,31",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"31",
 left:"420",
 right:"-1",
-top:"50",
+top:"48",
 width:"17"
 },
 styleClass:"header-title",
@@ -363,7 +363,7 @@ width:130
 {
 dataprovider:"orders_to_customers.companyname",
 editType:"COMBOBOX",
-headerTitle:"Company",
+headerTitle:"Customer",
 svyUUID:"E255646C-24B1-4C5F-945C-21C46E64BF57",
 valuelist:"10DC7F36-3F88-4490-B0EB-3391F55CBDC6"
 }
