@@ -323,7 +323,9 @@ left:"418",
 right:"-1",
 top:"253",
 width:"224"
-}
+},
+dataProviderID:"orderdate",
+format:"MM/dd/yyyy"
 },
 name:"calendar_1",
 typeName:"bootstrapcomponents-calendar",
