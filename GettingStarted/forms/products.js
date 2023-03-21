@@ -8,4 +8,5 @@
  */
 function onAction$addProduct(event) {
 	foundset.newRecord();
+	foundset.discontinued = 0;
 }

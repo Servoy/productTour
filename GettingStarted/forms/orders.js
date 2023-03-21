@@ -6,12 +6,6 @@
 var searchTerm = '';
 
 /**
- * @type {Number}
- *
- * @properties={typeid:35,uuid:"0E6BF748-8935-4CD1-A8B9-3E8CC65731B3",variableType:4}
- */
-var totalSales = 0;
-/**
  * @param {JSEvent} event
  *
  * @private
