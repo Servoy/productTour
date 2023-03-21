@@ -1,11 +1,22 @@
 // import of the custom servoy theme properties that will import the hidden servoy theme, this imported file is for customizing the default servoy theme properties 
 @import 'custom_servoy_theme_properties.less';
 
+.svy-sidenav-left .svy-sidenav-action-open {
+    left: -7px;
+    position: relative;
+}
+
+.bts-button  {
+	background:@main-color;
+	color:@main-color-inverse;
+	border-radius:15px;
+	/* box-shadow: 2px 1px 4px 1px gray; */
+}
+
 .ag-side-buttons {
 	display:none;
 }
 
-.title {
-	font-weight: bold;
-	font-size:30px;
+.ag-body{
+	overflow-x:hidden;
 }
