@@ -5,7 +5,6 @@ encapsulation:108,
 items:[
 {
 cssPosition:"4,10,-1,-1,100,30",
-formIndex:1,
 json:{
 cssPosition:{
 bottom:"-1",
@@ -15,7 +14,7 @@ right:"10",
 top:"4",
 width:"100"
 },
-formIndex:1,
+formIndex:0,
 onActionMethodID:"81E851DE-02B2-42E9-B441-E40C3605BE8F",
 text:"New Order"
 },
@@ -26,6 +25,7 @@ uuid:"0BD7F308-35F4-4130-950C-9CA7DFFCCEB7"
 },
 {
 cssPosition:"5,-1,-1,180,292,30",
+formIndex:2,
 json:{
 cssPosition:{
 bottom:"-1",
@@ -36,6 +36,7 @@ top:"5",
 width:"292"
 },
 dataProviderID:"searchTerm",
+formIndex:2,
 onDataChangeMethodID:"4FAE51D1-A23D-4937-AFDD-49BCAF9A9E4F",
 placeholderText:"Search...",
 styleClass:"searchbox"
@@ -191,6 +192,7 @@ uuid:"BD66E0FA-7C6A-4F74-AED8-256AA71793EE"
 },
 {
 cssPosition:"4,-1,-1,453,18,30",
+formIndex:3,
 json:{
 cssPosition:{
 bottom:"-1",
@@ -200,9 +202,10 @@ right:"-1",
 top:"4",
 width:"18"
 },
+formIndex:3,
 styleClass:"default-align fa fa-search"
 },
-name:"label_2",
+name:"search_icon",
 styleClass:"default-align fa fa-search",
 typeName:"bootstrapcomponents-label",
 typeid:47,
@@ -210,6 +213,7 @@ uuid:"C5959DB0-313E-4412-BF12-CE8390C15BB1"
 },
 {
 cssPosition:"0,0,-1,0,335,40",
+formIndex:1,
 json:{
 cssPosition:{
 bottom:"-1",
@@ -219,7 +223,7 @@ right:"0",
 top:"0",
 width:"335"
 },
-formIndex:0,
+formIndex:1,
 styleClass:"default-align title",
 text:"My Orders"
 },
