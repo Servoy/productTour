@@ -26,17 +26,18 @@ menu:[
 iconStyleClass:"fas fa-boxes",
 id:"orders",
 svyUUID:"393F90CA-0570-482D-8D44-E523E531A270",
-text:"Orders"
+text:"ORDERS"
 },
 {
 iconStyleClass:"fa fa-box",
 id:"products",
 svyUUID:"1879FD55-1083-45AD-8125-62089AAB91F0",
-text:"Products"
+text:"PRODUCTS"
 }
 ],
 onMenuItemSelected:"23AC0E69-AB67-48CA-8BED-85AD7CA1D1A0",
 open:false,
+sidenavWidth:140,
 slideAnimation:"collapse-menu"
 },
 name:"sidenav_1",

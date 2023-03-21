@@ -4,7 +4,7 @@ dataSource:"db:/example_data/orders",
 encapsulation:108,
 items:[
 {
-cssPosition:"10,-1,-1,420,100,30",
+cssPosition:"10,-1,-1,420,110,30",
 formIndex:3,
 json:{
 cssPosition:{
@@ -13,11 +13,11 @@ height:"30",
 left:"420",
 right:"-1",
 top:"10",
-width:"100"
+width:"110"
 },
 formIndex:3,
 onActionMethodID:"81E851DE-02B2-42E9-B441-E40C3605BE8F",
-text:"New Order"
+text:"New Order +"
 },
 name:"button_1",
 typeName:"bootstrapcomponents-button",
@@ -82,7 +82,7 @@ typeid:47,
 uuid:"13D2AF7C-3570-4595-B208-843F4338CCDB"
 },
 {
-cssPosition:"46,-1,-1,433,76,38",
+cssPosition:"50,-1,-1,433,76,38",
 dataProviderID:"orderid",
 displaysTags:true,
 format:"#,###",
@@ -175,13 +175,13 @@ typeid:47,
 uuid:"39ED393F-7358-448C-B994-39AB14F3048A"
 },
 {
-cssPosition:"10,-1,-1,118,292,30",
+cssPosition:"10,-1,-1,108,292,30",
 formIndex:1,
 json:{
 cssPosition:{
 bottom:"-1",
 height:"30",
-left:"118",
+left:"108",
 right:"-1",
 top:"10",
 width:"292"
@@ -223,6 +223,26 @@ text:"Order Date",
 transparent:true,
 typeid:7,
 uuid:"5DFEB320-350C-496E-96BD-C8541740426B"
+},
+{
+cssPosition:"0,0,-1,0,80,50",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"50",
+left:"0",
+right:"0",
+top:"0",
+width:"80"
+},
+formIndex:0,
+styleClass:"bg-main"
+},
+name:"label_5",
+styleClass:"bg-main",
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"6A02B8BC-A80A-4707-A70D-3CD9ED820348"
 },
 {
 cssPosition:"318,10,-1,-1,82,30",
@@ -281,14 +301,14 @@ typeid:47,
 uuid:"6E8B1DC8-4102-426D-BF80-81A0614D4F6D"
 },
 {
-cssPosition:"48,-1,-1,420,17,31",
+cssPosition:"52,-1,-1,420,17,31",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"31",
 left:"420",
 right:"-1",
-top:"48",
+top:"52",
 width:"17"
 },
 styleClass:"header-title",
@@ -310,6 +330,7 @@ uuid:"92311A16-4C54-446B-BC58-F20FC9AFC48F"
 },
 {
 cssPosition:"10,-1,-1,12,81,30",
+formIndex:1,
 json:{
 cssPosition:{
 bottom:"-1",
@@ -319,11 +340,12 @@ right:"-1",
 top:"10",
 width:"81"
 },
-styleClass:"default-align header-title",
+formIndex:1,
+styleClass:"default-align header-title svy-label",
 text:"Orders"
 },
 name:"label_1",
-styleClass:"default-align header-title",
+styleClass:"default-align header-title svy-label",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"93308661-160E-4186-8924-B5D13C3C0DA1"
@@ -350,7 +372,7 @@ typeid:47,
 uuid:"98A16C26-1DE3-4D56-BE83-BDB8C1617F2B"
 },
 {
-cssPosition:"48,-1,10,10,400,476",
+cssPosition:"60,-1,9,10,400,515",
 json:{
 columns:[
 {
@@ -369,11 +391,11 @@ valuelist:"10DC7F36-3F88-4490-B0EB-3391F55CBDC6"
 }
 ],
 cssPosition:{
-bottom:"10",
-height:"476",
+bottom:"9",
+height:"515",
 left:"10",
 right:"-1",
-top:"48",
+top:"60",
 width:"400"
 },
 rowHeight:35,
@@ -394,15 +416,15 @@ typeid:7,
 uuid:"B155CDBF-FA15-420F-B972-62E8BC6F2D77"
 },
 {
-cssPosition:"9,-1,-1,391,18,30",
+cssPosition:"12,-1,-1,378,18,27",
 formIndex:2,
 json:{
 cssPosition:{
 bottom:"-1",
-height:"30",
-left:"391",
+height:"27",
+left:"378",
 right:"-1",
-top:"9",
+top:"12",
 width:"18"
 },
 formIndex:2,
