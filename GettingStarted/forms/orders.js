@@ -24,7 +24,6 @@ function onAction$newOrder(event) {
 	foundset.orderdate = new Date();	
 }
 
-
 /**
  * @param {JSEvent} event
  *
@@ -35,33 +34,6 @@ function onAction$newOrder(event) {
 function onAction$addDetail(event) {	
 	foundset.orders_to_order_details.newRecord();	
 }
-
-/**
- * Called when the columns data is changed.
- *
- * @param {number} foundsetindex
- * @param {number} [columnindex]
- * @param {object} [oldvalue]
- * @param {object} [newvalue]
- * @param {JSEvent} [event]
- * @param {JSRecord} [record]
- *
- * @return {boolean}
- *
- * @private
- *
- * @properties={typeid:24,uuid:"297D9AD2-68CF-4B38-8B8B-DAE582A96945"}
- */
-function onColumnDataChange(foundsetindex, columnindex, oldvalue, newvalue, event, record) {
-	//if the column is changed is columnindex == 1 --> or product name, we can go 	
-	//and get the product price and automatically add it
-	if (columnindex == 0) {
-		var curr_rec = foundset.orders_to_order_details.getSelectedRecord();
-		curr_rec.unitprice = curr_rec.order_details_to_products.unitprice;
-	}
-	return true;
-}
-
 
 /**
  * Handle changed data, return false if the value should not be accepted.
@@ -85,4 +57,25 @@ function onDataChange(oldValue, newValue, event) {
 	s.setSearchText(searchTerm);
 	s.loadRecords(foundset);
 	return true;
+}
+
+/**
+ * Handle changed data, return false if the value should not be accepted.
+ * JSEvent.data will contain extra information about dataproviderid, its scope and the scope id (record datasource or form/global variable scope)
+ *
+ * @param oldValue
+ * @param newValue
+ * @param {JSEvent} event
+ *
+ * @return {boolean}
+ *
+ * @private
+ *
+ * @properties={typeid:24,uuid:"694CAE92-FFF0-4EA3-95BB-FA3EC1330046"}
+ */
+function onDataChange$customer(oldValue, newValue, event) {
+	foundset.shipaddress = orders_to_customers.address
+	foundset.shipcity = orders_to_customers.city
+	foundset.shipcountry = orders_to_customers.country
+	return false;
 }
