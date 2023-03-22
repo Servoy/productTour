@@ -366,10 +366,8 @@ width:130
 },
 {
 dataprovider:"orders_to_customers.companyname",
-editType:"COMBOBOX",
 headerTitle:"Customer",
-svyUUID:"E255646C-24B1-4C5F-945C-21C46E64BF57",
-valuelist:"10DC7F36-3F88-4490-B0EB-3391F55CBDC6"
+svyUUID:"E255646C-24B1-4C5F-945C-21C46E64BF57"
 }
 ],
 cssPosition:{
