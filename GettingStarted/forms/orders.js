@@ -53,8 +53,8 @@ function onAction$addDetail(event) {
 function onDataChange(oldValue, newValue, event) {
 	var s = scopes.svySearch.createSimpleSearch(foundset);
 	s.addSearchProvider('orders_to_customers.companyname');
-	s.addSearchProvider('orders_to_order_details.order_details_to_products.productname')
-	s.addSearchProvider('orders_to_customers.country')
+	s.addSearchProvider('orders_to_order_details.order_details_to_products.productname');
+	s.addSearchProvider('orders_to_customers.country');
 	s.setSearchText(searchTerm);
 	s.loadRecords(foundset);
 	return true;

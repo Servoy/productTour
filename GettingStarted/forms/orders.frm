@@ -496,6 +496,6 @@ uuid:"FF6E43BE-C61C-4438-A177-0EDCEF0868B9"
 name:"orders",
 navigatorID:"-1",
 showInMenu:true,
-size:"1341,593",
+size:"1075,593",
 typeid:3,
 uuid:"99012A44-BEAE-460B-83D8-01958F46814A"
