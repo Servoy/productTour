@@ -42,7 +42,7 @@ width:200
 {
 dataprovider:"quantity",
 editType:"TEXTFIELD",
-headerTitle:"Quantity",
+headerTitle:"QTY",
 svyUUID:"B287450F-BD0E-481B-95DB-C646D3F75AFB"
 },
 {

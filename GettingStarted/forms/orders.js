@@ -21,7 +21,7 @@ var mapZoom = 10;
  */
 function onAction$newOrder(event) {
 	foundset.newRecord();
-	foundset.orderdate = new Date();	
+	foundset.orderdate = new Date();
 }
 
 /**
@@ -31,8 +31,8 @@ function onAction$newOrder(event) {
  *
  * @properties={typeid:24,uuid:"C242D11C-7E91-4DDB-BAD3-DE56D7FE6334"}
  */
-function onAction$addDetail(event) {	
-	foundset.orders_to_order_details.newRecord();	
+function onAction$addDetail(event) {
+	foundset.orders_to_order_details.newRecord();
 }
 
 /**
@@ -54,6 +54,7 @@ function onDataChange(oldValue, newValue, event) {
 	var s = scopes.svySearch.createSimpleSearch(foundset);
 	s.addSearchProvider('orders_to_customers.companyname');
 	s.addSearchProvider('orders_to_order_details.order_details_to_products.productname')
+	s.addSearchProvider('orders_to_customers.country')
 	s.setSearchText(searchTerm);
 	s.loadRecords(foundset);
 	return true;
@@ -77,5 +78,5 @@ function onDataChange$customer(oldValue, newValue, event) {
 	foundset.shipaddress = orders_to_customers.address
 	foundset.shipcity = orders_to_customers.city
 	foundset.shipcountry = orders_to_customers.country
-	return false;
+	return true;
 }

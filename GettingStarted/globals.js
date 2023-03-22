@@ -18,7 +18,8 @@ var apikey = 'AIzaSyA7RMaQ7oTmVV1KAnnlEdvt7KXpHSykHF4'
 function onSolutionOpen(arg, queryParams) {	
 	plugins.ngdesktopui.setMenuBarVisibility(false);
 	plugins.ngdesktopui.removeAllMenus();
-	application.executeLater(initCB,0)
+	var d = new Date();
+	plugins.scheduler.addJob('initCB',d,initCB,5)
 	databaseManager.setAutoSave(true);
 }
 
